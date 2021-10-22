@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="practice.CreateOrgTest">
+        <methods>
+          <include name="loginToApp"/>
+          <include name="closebrowser"/>
+          <include name="launchBrowser"/>
+          <include name="logoutofapp"/>
+          <include name="CreateOrgTest"/>
+          <include name="closeDB"/>
+          <include name="connectDB"/>
+        </methods>
+      </class> <!-- practice.CreateOrgTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
